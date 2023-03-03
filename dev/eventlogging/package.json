@@ -1,0 +1,17 @@
+{
+  "name": "eventlogging",
+  "version": "1.0.0",
+  "description": "Logging Events for an Specific Smart Contract",
+  "main": "index.js",
+  "author": "ProtocolWhisper",
+  "license": "MIT",
+  "dependencies": {
+    "fuels": "^0.33.0",
+    "typescript": "^4.9.5"
+    
+  },
+  "scripts": {
+    "provider": "ts-node Provider.ts"
+  }
+  
+}
