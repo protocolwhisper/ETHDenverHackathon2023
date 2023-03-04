@@ -6,12 +6,18 @@
   "author": "ProtocolWhisper",
   "license": "MIT",
   "dependencies": {
+    "@fuel-wallet/sdk": "^0.7.0",
     "fuels": "^0.33.0",
     "typescript": "^4.9.5"
-    
   },
   "scripts": {
-    "provider": "ts-node Provider.ts"
+    "provider": "ts-node Provider.ts",
+    "transaction": "ts-node Transaction.ts"
   }
   
+  {
+    "compilerOptions": {
+      "types": ["@fuel-wallet/sdk"]
+    }
+  }
 }

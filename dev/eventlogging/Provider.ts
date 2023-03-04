@@ -16,7 +16,9 @@ export const wallet: WalletUnlocked = Wallet.fromPrivateKey(
 
 export const signer = new Signer(PRIVATE_KEY);
 
-console.log(signer);
+// This is just for checking
+
+//console.log(signer);
 
 // validate address
 //expect(wallet.address).toEqual(signer.address);

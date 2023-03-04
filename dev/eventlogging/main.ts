@@ -8,7 +8,7 @@ import { provider, myWallet } from "./Provider";
 export const byteCode = readFileSync(
   join(
     __dirname,
-    "../test-projects/storage-test-contract/out/debug/storage-test.bin"
+    "/home/clippo/dockersupabase/docker/dev/contractShit/ETHDenver2023-Fuel/out/debug/bounty_board.bin"
   )
 );
 
@@ -17,7 +17,7 @@ export const abi = JSON.parse(
   readFileSync(
     join(
       __dirname,
-      "../test-projects/storage-test-contract/out/debug/storage-test-abi.json"
+      "/home/clippo/dockersupabase/docker/dev/contractShit/ETHDenver2023-Fuel/out/debug/bounty_board-abi.json"
     )
   ).toString()
 );
