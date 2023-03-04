@@ -29,3 +29,4 @@ export async function createContract(id: AbstractAddress, inter: Interface) {
 export async function getResponse(id: string) {
   let response = new TransactionResponse(id, provider); // We get a receipt for the transaction id
 }
+
