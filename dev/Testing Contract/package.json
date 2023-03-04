@@ -1,0 +1,11 @@
+{
+  "name": "Testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "fuels": "^0.33.0",
+    "ts-node": "^10.9.1"
+  }
+}

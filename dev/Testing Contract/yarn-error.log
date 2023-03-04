@@ -1,0 +1,42 @@
+Arguments: 
+  /home/clippo/.nvm/versions/node/v16.19.0/bin/node /usr/local/bin/yarn add fuel @fuel-ts/wallet/test-utils
+
+PATH: 
+  /home/clippo/.fuelup/bin:/home/clippo/.fuelup/bin:/home/clippo/.nvm/versions/node/v16.19.0/bin:/home/clippo/.fuelup/bin:/home/clippo/.cargo/bin:/home/clippo/.local/bin:/home/clippo/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/home/clippo/.foundry/bin:/home/clippo/.foundry/bin:/home/clippo/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@fuel-ts%2fwallet/test-utils: Request "https://registry.yarnpkg.com/@fuel-ts%2fwallet/test-utils" returned a 405
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66154:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1358:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "Testing",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Protocol",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
